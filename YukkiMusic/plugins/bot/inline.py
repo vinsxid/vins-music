@@ -60,7 +60,7 @@ async def inline_query_handler(client, query):
 👀 **Views:** `{views}`
 ⏰ **Waktu Published:** {published}
 🎥 **Channel Name:** `{channel}`
-📎 **Channel Link:** [Kunjungi disini]({channellink})
+📎 **Channel Link:** [Kunjungi Disini]({channellink})
 
 __Balas dengan /play pada pesan yang dicari ini untuk memulai di obrolan suara.__
 
