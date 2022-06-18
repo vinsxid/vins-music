@@ -44,7 +44,7 @@
 - install requirements
 `pip3 install -U -r requirements.txt`
 - mengganti nama sample.env dengan .env
--`cp sample.env .env`
+`cp sample.env .env`
 - Masuk ke .env
 `nano .env`
 - Masukan semua data data bot music mu disitu
