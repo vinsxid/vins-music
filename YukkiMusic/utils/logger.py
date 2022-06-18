@@ -21,15 +21,16 @@ async def play_logs(message, streamtype):
         logger_text = f"""
 **LOG PEMUTARAN BOTMUSIC**
 
-**Group:** {message.chat.title} [`{message.chat.id}`]
-**Pengguna:** {message.from_user.mention}
-**Username:** @{message.from_user.username}
-**User ID:** `{message.from_user.id}`
-**Link Chat:** {chatusername}
+**❏ Detail:**
+**├• Grup:** {message.chat.title} [`{message.chat.id}`]
+**├• Pengguna:** {message.from_user.mention}
+**├• Username:** @{message.from_user.username}
+**├• User ID:** `{message.from_user.id}`
+**├• Link Chat:** {chatusername}
 
-**Query:** {message.text}
+**Perintah:** {message.text}
 
-**StreamType:** {streamtype}"""
+**Tipe Stream:** {streamtype}"""
         if message.chat.id != LOG_GROUP_ID:
             try:
                 await app.send_message(
