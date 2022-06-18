@@ -106,9 +106,9 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 
 1️⃣ **Search Mode** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
 
-2️⃣ **Admin Commands** [Everyone atau Admins] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll)
+2️⃣ **Admin Commands** [Semuanya atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
-3️⃣ **Play Type** [Everyone or Admins] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
+3️⃣ **Play Type** [Semuanya or Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /addsudo [Username or Balas ke pengguna]
@@ -117,38 +117,39 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 🛃**<u>HEROKU:</u>**
 /usage - Penggunaan Dyno.
 
-🌐**<u>CONFIG VARS:</u>**
+🌐**<u>KONFIGURASI VARS:</u>**
 /get_var - Dapatkan config var dari Heroku atau .env
 /del_var - Hapus semua var di Heroku atau .env
 /set_var [Nama Var] [Value] - Setel Var atau Perbarui Var di heroku atau .env. Pisahkan Var dan Nilainya dengan spasi.
 
-🤖**<u>BOT COMMANDS:</u>**
-/reboot - Reboot your Bot. 
+🤖**<u>PERINTAH BOT:</u>**
+/reboot - Memulai ulang Bot Anda.
+/restart - Memulai ulang Bot Anda.
 /update - Update Bot.
 /speedtest - Check server speeds
-/maintenance [enable / disable] 
-/logger [enable / disable] - Bot logs the searched queries in logger group.
-/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
+/maintenance [enable|disable] 
+/logger [enable|disable] - Bot mencatat kueri yang dicari di logger.
+/get_log [Number of Lines] - Dapatkan log bot Anda dari heroku atau vps. Bekerja untuk keduanya.
 
-📈**<u>STATS COMMANDS:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
+📈**<u>PERINTAH STATIS:</u>**
+/activevoice - Periksa obrolan suara aktif di bot.
+/activevideo - Periksa obrolan video aktif di bot.
+/stats - Periksa Statistik Bot
 
-⚠️**<u>BLACKLIST CHAT FUNCTION:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+⚠️**<u>FUNGSI BLACKLIST CHAT:</u>**
+/blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
+/whitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
+/blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
 
-👤**<u>BLOCKED FUNCTION:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
+👤**<u>FUNGSI TERBLOKIR:</u>**
+/block [Username or Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
+/unblock [Username or Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
+/blockedusers - Periksa Daftar Pengguna yang diblokir
 
-👤**<u>GBAN FUNCTION:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+👤**<u>FUNGSI GBAN:</u>**
+/gban [Username or Balas ke pengguna] - Gban pengguna dari obrolan yang anda admin grup, bot akan hentikan dia menggunakan bot Anda.
+/ungban [Username or Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
+/gbannedusers - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>VIDEOCALLS FUNCTION:</u>**
 /set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
@@ -160,7 +161,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /authorized - Check all allowed chats of your bot.
 
 🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+/broadcast [Message or Balas ke pengguna] - Broadcast any message to Bot's Served Chats.
 
 <u>options for broadcast:</u>
 **-pin** : This will pin your message 
