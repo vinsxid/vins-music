@@ -24,7 +24,7 @@ VARS_COMMAND = get_command("VARS_COMMAND")
 @app.on_message(filters.command(VARS_COMMAND) & SUDOERS)
 async def varsFunc(client, message):
     mystic = await message.reply_text(
-        "Please wait.. Getting your config"
+        "Harap tunggu.. Mendapatkan konfigurasi Anda"
     )
     v_limit = await get_video_limit()
     bot_name = config.MUSIC_BOT_NAME
@@ -89,13 +89,13 @@ async def varsFunc(client, message):
     tg_vid = convert_bytes(config.TG_VIDEO_FILESIZE_LIMIT)
     text = f"""**MUSIC BOT CONFIG:**
 
-**<u>Basic Vars:</u>**
+**<u>Vars Dasar:</u>**
 `MUSIC_BOT_NAME` : **{bot_name}**
 `DURATION_LIMIT` : **{play_duration} min**
 `SONG_DOWNLOAD_DURATION_LIMIT` :** {song} min**
 `OWNER_ID` : **{owner_id}**
     
-**<u>Custom Repo Vars:</u>**
+**<u>Vars Repo Kustom:</u>**
 `UPSTREAM_REPO` : **{up_r}**
 `UPSTREAM_BRANCH` : **{up_b}**
 `GITHUB_REPO` :** {git}**
