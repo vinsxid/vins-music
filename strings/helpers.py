@@ -92,23 +92,23 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 
 2️⃣ Anda dapat mengatur **Kualitas Video** Anda ingin streaming di obrolan suara.
 
-3️⃣ **Auth Users**:- Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll)
+3️⃣ **Pengguna Auth**:- Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
-4️⃣ **Clean Mode:** Saat diaktifkan, hapus pesan bot setelah 5 menit dari grup Anda untuk memastikan obrolan Anda tetap bersih dan baik.
+4️⃣ **Mode Bersih:** Saat diaktifkan, hapus pesan bot setelah 5 menit dari grup Anda untuk memastikan obrolan Anda tetap bersih dan baik.
 
-5️⃣ **Command Clean** : Saat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play, /pause, /shuffle, /stop etc).
+5️⃣ **Perintah Bersih** : Saat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play, /pause, /shuffle, /stop etc).
 
-6️⃣ **Play Settings:**
+6️⃣ **Pengaturan Putar:**
 
 /playmode - Dapatkan panel pengaturan pemutaran lengkap dengan tombol tempat Anda dapat mengatur pengaturan pemutaran grup Anda. 
 
 <u>Pilihan di playmode:</u>
 
-1️⃣ **Search Mode** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
+1️⃣ **Mode Pencarian** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
 
-2️⃣ **Admin Commands** [Semuanya atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll)
+2️⃣ **Perintah Admin** [Semuanya atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
-3️⃣ **Play Type** [Semuanya or Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
+3️⃣ **Tipe Perintah** [Semuanya or Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /addsudo [Username or Balas ke pengguna]
