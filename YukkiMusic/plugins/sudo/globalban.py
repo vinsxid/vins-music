@@ -143,7 +143,7 @@ async def gbanned_list(client, message: Message, _):
             )
             msg += f"{count}➤ {user}\n"
         except Exception:
-            msg += f"{count}➤ [Unfetched User]{user_id}\n"
+            msg += f"{count}➤ [Pengguna Tidak Diambil]{user_id}\n"
             continue
     if count == 0:
         return await mystic.edit_text(_["gban_10"])
