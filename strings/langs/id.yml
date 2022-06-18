@@ -420,11 +420,11 @@ pbot_5 : "Obrolan sudah ada di daftar yang diotorisasi"
 pbot_6 : "Tidak ada obrolan seperti itu di daftar resmi"
 pbot_7 : "Gagal memverifikasi chat_id.\n\nPastikan numerik dalam format yang benar. Jangan gunakan nama pengguna atau tautan obrolan."
 pbot_8 : "Mohon tunggu.... Mengambil Obrolan Resmi."
-pbot_9 : "**<b>Obrolan yang Diambil:</b>**\n\n"
+pbot_9 : "**<b>✅ Obrolan Aktif</b>**\n\n"
 pbot_10 : "Obrolan Pribadi"
 pbot_11 : "Tidak ditemukan Obrolan Resmi"
 pbot_12 : "Mode Bot Pribadi dinonaktifkan.\n\nUntuk menggunakan bot Anda sebagai bot pribadi, pastikan untuk menyetel **PRIVATE_BOT_MODE** = **True**"
-pbot_13 : "\n**<b>Obrolan Tidak Diambil:</b>**\n\n"
+pbot_13 : "\n**<b>❎ Obrolan Belum Aktif:</b>**\n\n"
 
 
 #Gbanned
