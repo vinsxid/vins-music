@@ -131,7 +131,7 @@ async def start_comm(client, message: Message, _):
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
         if name[0:3] == "inf":
-            m = await message.reply_text("🔎 Mengambil Info!")
+            m = await message.reply_text("🔎 Mengambil Info.. Tunggu sebentar")
             query = (str(name)).replace("info_", "", 1)
             query = f"https://www.youtube.com/watch?v={query}"
             results = VideosSearch(query, limit=1)
@@ -147,7 +147,7 @@ async def start_comm(client, message: Message, _):
                 link = result["link"]
                 published = result["publishedTime"]
             searched_text = f"""
-🔍__**Informasi Trek Video**__
+👁️‍🗨️ **Informasi Trek Video**
 
 ❇️ **Judul:** {title}
 
