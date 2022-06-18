@@ -55,7 +55,7 @@ async def start_comm(client, message: Message, _):
             return await message.reply_text(_["song_2"])
         if name[0:3] == "sta":
             m = await message.reply_text(
-                "🔎 Fetching your personal stats.!"
+                "🔎 Mengambil statistik pribadi Anda.!"
             )
             stats = await get_userss(message.from_user.id)
             tot = len(stats)
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} baru saja memulai bot untuk memeriksa <code>SUDOLIST</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} Memulai Bot untuk memeriksa <code>SUDOLIST</code>\n\n❏ Detail:\n├• **USERID:** {sender_id}\n├• **USERNAME:** @{sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -184,7 +184,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} baru saja memulai bot untuk memeriksa <code>INFORMASI VIDEO</code>\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                    f"{message.from_user.mention} Memulai Bot untuk memeriksa <code>INFORMASI VIDEO</code>\n\n❏ Detail:\n├• **USERID:** {sender_id}\n├• **USERNAME:** @{sender_name}",
                 )
     else:
         try:
@@ -217,7 +217,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} baru saja memulai Bot.\n\n**USER ID:** {sender_id}\n**USER NAME:** {sender_name}",
+                f"{message.from_user.mention} Baru saja memulai Bot.\n\n❏ Detail:\n├• **USERID:** {sender_id}\n├• **USERNAME:** @{sender_name}",
             )
 
 
