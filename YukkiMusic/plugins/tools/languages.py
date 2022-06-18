@@ -33,12 +33,12 @@ def lanuages_keyboard(_):
             callback_data=f"languages:id",
         ),
     )
-    keyboard.row(
-        InlineKeyboardButton(
-            text="☠️ Toxic",
-            callback_data=f"languages:toxic",
-        ),
-    )
+    #keyboard.row(
+    #    InlineKeyboardButton(
+    #        text="☠️ Toxic",
+    #        callback_data=f"languages:toxic",
+    #    ),
+    #)
     keyboard.row(
         InlineKeyboardButton(
             text=_["BACK_BUTTON"],
@@ -96,11 +96,11 @@ async def language_markup(client, CallbackQuery, _):
     try:
         _ = get_string(langauge)
         await CallbackQuery.answer(
-            "Successfully changed your language.", show_alert=True
+            "Berhasil mengubah bahasa Anda.", show_alert=True
         )
     except:
         return await CallbackQuery.answer(
-            "Failed to change language or Language under update.",
+            "Gagal mengubah bahasa atau Bahasa dalam pembaruan.",
             show_alert=True,
         )
     await set_lang(CallbackQuery.message.chat.id, langauge)
