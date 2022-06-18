@@ -11,24 +11,24 @@ HELP_1 = """✅**<u>Perintah Admin:</u>**
 
 **c** singkatan dari pemutaran Channel.
 
-/pause or /cpause - Jeda musik yang diputar.
-/resume or /cresume- Lanjutkan musik yang dijeda.
-/mute or /cmute- Matikan musik yang diputar.
-/unmute or /cunmute- Suarakan musik yang dibisukan.
-/skip or /cskip- Lewati musik yang sedang diputar.
-/stop or /cstop- Hentikan pemutaran musik.
-/shuffle or /cshuffle- Secara acak mengacak daftar putar yang antri.
-/seek or /cseek - Teruskan Cari musik sesuai durasi Anda
-/seekback or /cseekback - Mundur Carilah musik sesuai durasi Anda
+/pause atau /cpause - Jeda musik yang diputar.
+/resume atau /cresume- Lanjutkan musik yang dijeda.
+/mute atau /cmute- Matikan musik yang diputar.
+/unmute atau /cunmute- Suarakan musik yang dibisukan.
+/skip atau /cskip- Lewati musik yang sedang diputar.
+/stop atau /cstop- Hentikan pemutaran musik.
+/shuffle atau /cshuffle- Secara acak mengacak daftar putar yang antri.
+/seek atau /cseek - Teruskan Cari musik sesuai durasi Anda
+/seekback atau /cseekback - Mundur Carilah musik sesuai durasi Anda
 /restart - Mulai ulang bot untuk obrolan Anda .
 
 
 ✅<u>**Lewati Spesifik:**</u>
-/skip or /cskip [Nomor(contoh: 3)] 
+/skip atau /cskip [Nomor(contoh: 3)] 
     - Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
 ✅<u>**Putar Mengulang:**</u>
-/loop or /cloop [enable|disable] atau [Angka antara 1-10] 
+/loop atau /cloop [enable|disable] atau [Angka antara 1-10] 
     - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
 
 ✅<u>**Pengguna Auth:**</u>
@@ -76,7 +76,7 @@ HELP_3 = """✅<u>**Perintah Bot:**</u>
 
 **c** singkatan dari pemutaran saluran.
 
-/queue or /cqueue- Periksa Daftar Antrian Musik."""
+/queue atau /cqueue- Periksa Daftar Antrian Musik."""
 
 HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 /start - Mulai Bot Musik.
@@ -108,11 +108,11 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 
 2️⃣ **Perintah Admin** [Semuanya atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
-3️⃣ **Tipe Perintah** [Semuanya or Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
+3️⃣ **Tipe Perintah** [Semuanya atau Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-/addsudo [Username or Balas ke pengguna] -Tambah pengguna Sudo
-/delsudo [Username or Balas ke pengguna] - Hapus pengguna Sudo
+/addsudo [Username atau Balas ke pengguna] -Tambah pengguna Sudo
+/delsudo [Username atau Balas ke pengguna] - Hapus pengguna Sudo
 /sudolist - Periksa Daftar Pengguna Sudo
 
 🛃**<u>HEROKU:</u>**
@@ -143,13 +143,13 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
 
 👤**<u>FUNGSI TERBLOKIR:</u>**
-/block [Username or Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
-/unblock [Username or Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
+/block [Username atau Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
+/unblock [Username atau Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
 /blockedusers - Periksa Daftar Pengguna yang diblokir
 
 👤**<u>FUNGSI GBAN:</u>**
-/gban [Username or Balas ke pengguna] - Gban pengguna dari semua obrolan grup bot akan hentikan dia menggunakan bot Anda.
-/ungban [Username or Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
+/gban [Username atau Balas ke pengguna] - Gban pengguna dari semua obrolan grup bot akan hentikan dia menggunakan bot Anda.
+/ungban [Username atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
 /gbannedusers - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>FUNGSI VIDEOCALL:</u>**
@@ -162,7 +162,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /authorized - Periksa semua obrolan yang diizinkan dari bot Anda.
 
 🌐**<u>FUNGSI BROADCAST:</u>**
-/broadcast [Message or Balas ke pengguna] - Siarkan pesan apa pun ke Obrolan yang akses oleh Bot.
+/broadcast [Message atau Balas pesan] - Siarkan pesan apa pun ke Obrolan yang akses oleh Bot.
 
 <u>Opsi untuk broadcast:</u>
 **-pin** : Ini akan menyematkan pesan Anda
