@@ -78,4 +78,4 @@ async def init():
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("NekoXid").info("Menghentikan Neko Music Bot! ")
+    LOGGER("NekoXid").info("Menghentikan NekoXid Music Bot! ")
