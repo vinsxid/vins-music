@@ -39,7 +39,7 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak Admin di Grup Anda.
 /authusers - Periksa DAFTAR AUTH grup."""
 
 
-HELP_2 = """✅<u>**Perintah Play:**</u>
+HELP_2 = """✅<u>**Perintah Putar:**</u>
 
 Perintah yang tersedia = play , vplay , cplay
 
@@ -59,7 +59,7 @@ Perintah ForcePlay = playforce , vplayforce , cplayforce
 ✅**<u>Daftar Putar Server Bot:</u>**
 /playlist  - Periksa Daftar Putar Tersimpan Anda Di Server.
 /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
-/play  - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
+/play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
 
 
 HELP_3 = """✅<u>**Perintah Bot:**</u>
@@ -81,7 +81,7 @@ HELP_3 = """✅<u>**Perintah Bot:**</u>
 HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 /start - Mulai Bot Musik.
 /help - Dapatkan Menu Pembantu Perintah dengan penjelasan rinci tentang perintah.
-/ping- Ping Bot dan periksa statistik Ram, Cpu, dll dari Bot.
+/ping- Ping Bot dan periksa statistik RAM, CPU, dll dari Bot.
 
 ✅<u>**Pengaturan Grup:**</u>
 /settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
@@ -111,8 +111,9 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 3️⃣ **Tipe Perintah** [Semuanya or Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-/addsudo [Username or Balas ke pengguna]
-/delsudo [Username or Balas ke pengguna]
+/addsudo [Username or Balas ke pengguna] -Tambah pengguna Sudo
+/delsudo [Username or Balas ke pengguna] - Hapus pengguna Sudo
+/sudolist - Periksa Daftar Pengguna Sudo
 
 🛃**<u>HEROKU:</u>**
 /usage - Penggunaan Dyno.
@@ -129,7 +130,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /speedtest - Check server speeds
 /maintenance [enable|disable] 
 /logger [enable|disable] - Bot mencatat kueri yang dicari di logger.
-/get_log [Number of Lines] - Dapatkan log bot Anda dari heroku atau vps. Bekerja untuk keduanya.
+/get_log [Nomor Line] - Dapatkan log bot Anda dari heroku atau vps. Bekerja untuk keduanya.
 
 📈**<u>PERINTAH STATIS:</u>**
 /activevoice - Periksa obrolan suara aktif di bot.
@@ -152,7 +153,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /gbannedusers - Periksa Daftar Pengguna Gbanned
 
 🎥**<u>FUNGSI VIDEOCALL:</u>**
-/set_video_limit [Number of Chats] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu. Default untuk 3 obrolan.
+/set_video_limit [Obrolan yang diizinkan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu. Default untuk 3 obrolan.
 /videomode [download|m3u8] - Jika mode unduh diaktifkan, Bot akan mengunduh video alih-alih memutarnya dalam bentuk M3u8. Secara default ke M3u8. Anda dapat menggunakan mode unduhan saat kueri apa pun tidak diputar dalam mode m3u8.
 
 ⚡️**<u>FUNGSI BOT PRIBADI:</u>**
@@ -161,7 +162,7 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /authorized - Periksa semua obrolan yang diizinkan dari bot Anda.
 
 🌐**<u>FUNGSI BROADCAST:</u>**
-/broadcast [Message or Balas ke pengguna] - Siarkan pesan apa pun ke Obrolan yang Dilayani Bot.
+/broadcast [Message or Balas ke pengguna] - Siarkan pesan apa pun ke Obrolan yang akses oleh Bot.
 
 <u>Opsi untuk broadcast:</u>
 **-pin** : Ini akan menyematkan pesan Anda
