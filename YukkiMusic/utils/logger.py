@@ -23,7 +23,7 @@ async def play_logs(message, streamtype):
 
 **❏ Detail:**
 **├• Grup:** {message.chat.title} 
-**├• ID Grup** [`{message.chat.id}`]
+**├• ID Grup:** [`{message.chat.id}`]
 **├• Pengguna:** {message.from_user.mention}
 **├• Username:** @{message.from_user.username}
 **├• User ID:** `{message.from_user.id}`
