@@ -139,7 +139,7 @@ async def forceclose_command(_, CallbackQuery):
     if CallbackQuery.from_user.id != int(user_id):
         try:
             return await CallbackQuery.answer(
-                "You're not allowed to close this.", show_alert=True
+                "Anda tidak diizinkan untuk menutup ini.", show_alert=True
             )
         except:
             return
@@ -159,7 +159,7 @@ async def forceclose_command(_, CallbackQuery):
 async def shellrunner(client, message):
     if len(message.command) < 2:
         return await edit_or_reply(
-            message, text="**Usage:**\n/sh git pull"
+            message, text="**Penggunaan:**\n/sh git pull"
         )
     text = message.text.split(None, 1)[1]
     if "\n" in text:
