@@ -32,7 +32,7 @@
 
 ### ᴠᴘs
 - Upgrade & Update :
-`sudo apt-get update && sudo apt-get upgrade -y`
+```sudo apt-get update && sudo apt-get upgrade -y```
 - Menginstal Paket yang Diperlukan :
 `sudo apt-get install python3-pip ffmpeg -y`
 - install pip :
