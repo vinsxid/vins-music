@@ -27,19 +27,19 @@ HELP_1 = """✅**<u>Perintah Admin:</u>**
 /skip or /cskip [Nomor(contoh: 3)] 
     - Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
-✅<u>**Putar Putar:**</u>
+✅<u>**Putar Mengulang:**</u>
 /loop or /cloop [enable|disable] atau [Angka antara 1-10] 
     - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
 
 ✅<u>**Pengguna Auth:**</u>
-Pengguna Auth dapat menggunakan perintah admin tanpa hak Admin di Group Anda.
+Pengguna Auth dapat menggunakan perintah admin tanpa hak Admin di Grup Anda.
 
 /auth [Username] - Tambahkan pengguna ke AUTH LIST dari grup.
 /unauth [Username] - Hapus pengguna dari AUTH LIST grup.
 /authusers - Periksa DAFTAR AUTH grup."""
 
 
-HELP_2 = """✅<u>**Play Command:**</u>
+HELP_2 = """✅<u>**Perintah Play:**</u>
 
 Perintah yang tersedia = play , vplay , cplay
 
@@ -147,29 +147,29 @@ HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
 /blockedusers - Periksa Daftar Pengguna yang diblokir
 
 👤**<u>FUNGSI GBAN:</u>**
-/gban [Username or Balas ke pengguna] - Gban pengguna dari obrolan yang anda admin grup, bot akan hentikan dia menggunakan bot Anda.
+/gban [Username or Balas ke pengguna] - Gban pengguna dari semua obrolan grup bot akan hentikan dia menggunakan bot Anda.
 /ungban [Username or Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
 /gbannedusers - Periksa Daftar Pengguna Gbanned
 
-🎥**<u>VIDEOCALLS FUNCTION:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+🎥**<u>FUNGSI VIDEOCALL:</u>**
+/set_video_limit [Number of Chats] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu. Default untuk 3 obrolan.
+/videomode [download|m3u8] - Jika mode unduh diaktifkan, Bot akan mengunduh video alih-alih memutarnya dalam bentuk M3u8. Secara default ke M3u8. Anda dapat menggunakan mode unduhan saat kueri apa pun tidak diputar dalam mode m3u8.
 
-⚡️**<u>PRIVATE BOT FUNCTION:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
+⚡️**<u>FUNGSI BOT PRIBADI:</u>**
+/authorize [CHAT_ID] - Izinkan obrolan untuk menggunakan bot Anda.
+/unauthorize [CHAT_ID] - Larang obrolan menggunakan bot Anda.
+/authorized - Periksa semua obrolan yang diizinkan dari bot Anda.
 
-🌐**<u>BROADCAST FUNCTION:</u>**
-/broadcast [Message or Balas ke pengguna] - Broadcast any message to Bot's Served Chats.
+🌐**<u>FUNGSI BROADCAST:</u>**
+/broadcast [Message or Balas ke pengguna] - Siarkan pesan apa pun ke Obrolan yang Dilayani Bot.
 
-<u>options for broadcast:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
+<u>Opsi untuk broadcast:</u>
+**-pin** : Ini akan menyematkan pesan Anda
+**-pinloud** : Ini akan menyematkan pesan Anda dengan pemberitahuan
+**-user** : Ini akan menyiarkan pesan Anda ke pengguna yang telah memulai bot Anda.
+**-assistant** : Ini akan menyiarkan pesan Anda dari akun asisten bot Anda.
+**-nobot** : Ini akan memaksa bot Anda untuk tidak menyiarkan pesan.
 
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+**Contoh:** `/broadcast -user -assistant -pin Hello Testing`
 
 """
