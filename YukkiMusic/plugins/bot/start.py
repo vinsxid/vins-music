@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} Memulai Bot untuk memeriksa <code>SUDOLIST</code>\n\n❏ Detail:\n├• **USERID:** {sender_id}\n└• **USERNAME:** {sender_name}",
+                    f"{message.from_user.mention}\n**Baru saja memulai Bot**\n\n👁️‍🗨️ **Check:** <code>SUDOLIST</code>\n\n**❏ Detail:**\n**├• UserID:** {sender_id}\n**└• Nickname:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -184,7 +184,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention} Memulai Bot untuk memeriksa <code>INFORMASI VIDEO</code>\n\n❏ Detail:\n├• **USERID:** {sender_id}\n└• **USERNAME:** {sender_name}",
+                    f"{message.from_user.mention}\n**Baru saja memulai Bot**\n\n👁️‍🗨️ **Check:** <code>INFORMASI VIDEO</code>\n\n**❏ Detail:**\n**├• UserID:** {sender_id}\n**└• Nickname:** {sender_name}",
                 )
     else:
         try:
@@ -217,7 +217,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention} Baru saja memulai Bot.\n\n❏ Detail:\n├• **USERID:** {sender_id}\n└• **USERNAME:** {sender_name}",
+                f"{message.from_user.mention}\n**Baru saja memulai Bot**\n\n**❏ Detail:**\n**├• UserID:** {sender_id}\n**└• Nickname:** {sender_name}",
             )
 
 
