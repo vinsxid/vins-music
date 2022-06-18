@@ -28,11 +28,11 @@ HELP_1 = """✅**<u>Perintah Admin:</u>**
     - Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
 ✅<u>**Putar Putar:**</u>
-/loop or /cloop [enable/disable] atau [Angka antara 1-10] 
+/loop or /cloop [enable|disable] atau [Angka antara 1-10] 
     - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
 
 ✅<u>**Pengguna Auth:**</u>
-Pengguna Auth dapat menggunakan perintah admin tanpa hak admin di Group Anda.
+Pengguna Auth dapat menggunakan perintah admin tanpa hak Admin di Group Anda.
 
 /auth [Username] - Tambahkan pengguna ke AUTH LIST dari grup.
 /unauth [Username] - Hapus pengguna dari AUTH LIST grup.
@@ -88,21 +88,21 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 
 🔗 **Opsi di Pengaturan:**
 
-1️⃣ You can set **ingin Kualitas Audio** Anda streaming di obrolan suara.
+1️⃣ Anda dapat mengatur **Kualitas Audio** Anda ingin streaming di obrolan suara.
 
-2️⃣ You can set **Kualitas Video** Anda ingin streaming di obrolan suara.
+2️⃣ Anda dapat mengatur **Kualitas Video** Anda ingin streaming di obrolan suara.
 
 3️⃣ **Auth Users**:- Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll)
 
-4️⃣ **Clean Mode:** When enabled deletes the bot's messages after 5 mins from your group to make sure your chat remains clean and good.
+4️⃣ **Clean Mode:** Saat diaktifkan, hapus pesan bot setelah 5 menit dari grup Anda untuk memastikan obrolan Anda tetap bersih dan baik.
 
-5️⃣ **Command Clean** : When activated, Bot will delete its executed commands (/play, /pause, /shuffle, /stop etc) immediately.
+5️⃣ **Command Clean** : Saat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play, /pause, /shuffle, /stop etc).
 
 6️⃣ **Play Settings:**
 
-/playmode - Get a complete play settings panel with buttons where you can set your group's play settings. 
+/playmode - Dapatkan panel pengaturan pemutaran lengkap dengan tombol tempat Anda dapat mengatur pengaturan pemutaran grup Anda. 
 
-<u>Options in playmode:</u>
+<u>Pilihan di playmode:</u>
 
 1️⃣ **Search Mode** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
 
@@ -111,16 +111,16 @@ HELP_4 = """✅<u>**Perintah Ekstra:**</u>
 3️⃣ **Play Type** [Everyone or Admins] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
 HELP_5 = """🔰**<u>ADD & REMOVE SUDO USERS :</u>**
-/addsudo [Username or Reply to a user]
-/delsudo [Username or Reply to a user]
+/addsudo [Username or Balas ke pengguna]
+/delsudo [Username or Balas ke pengguna]
 
 🛃**<u>HEROKU:</u>**
-/usage - Dyno Usage.
+/usage - Penggunaan Dyno.
 
 🌐**<u>CONFIG VARS:</u>**
-/get_var - Get a config var from Heroku or .env.
-/del_var - Delete any var on Heroku or .env.
-/set_var [Var Name] [Value] - Set a Var or Update a Var on heroku or .env. Seperate Var and its Value with a space.
+/get_var - Dapatkan config var dari Heroku atau .env
+/del_var - Hapus semua var di Heroku atau .env
+/set_var [Nama Var] [Value] - Setel Var atau Perbarui Var di heroku atau .env. Pisahkan Var dan Nilainya dengan spasi.
 
 🤖**<u>BOT COMMANDS:</u>**
 /reboot - Reboot your Bot. 
