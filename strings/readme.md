@@ -5,8 +5,6 @@
 | Code | Language | Contributor |
 |-|-------|-------|
 | en | English | Thanks to [TeamYukki](https://t.me/TeamYukki)
-| jawa | Jawa  | by [Rexa](https://t.me/JustRex)
-| Sunda | Sunda  | by [Rexa](https://t.me/JustRex)
 | id | Indonesia | Thanks to [Rexa](https://t.me/JustRex)
 
 
