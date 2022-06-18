@@ -32,25 +32,25 @@
 
 ### ᴠᴘs
 - Upgrade & Update :
-```sudo apt-get update && sudo apt-get upgrade -y```
+`sudo apt-get update && sudo apt-get upgrade -y`
 - Menginstal Paket yang Diperlukan :
 `sudo apt-get install python3-pip ffmpeg -y`
 - install pip :
 `sudo pip3 install -U pip`
 - Install Node
 `curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
-- kloning repository
-`git clone https://github.com/Vins92-del/Music3 &&  cd Music3`
+- Cloning repository
+`git clone https://github.com/BTRExo/NekoXid-Music &&  cd NekoXid-Music`
 - install requirements
 `pip3 install -U -r requirements.txt`
-- mengganti nama sample.env dengan .env
+- Kemudian
 `cp sample.env .env`
 - Masuk ke .env
-`nano .env`
-- Masukan semua data data bot music mu disitu
-- Setelah semua data dimasukan silahkan `ctrl + x` dan `y`
-- Buat Screen agar bot Aktif terus menerus 
-`screen -S Music3`
+`vi .env`
+- Masukan semua data
+- Setelah semua data dimasukan silahkan `ctrl` `x` dan `y`
+- Buat Screen 
+`screen -S BotMusic`
 - Jalankan bot ketik :
 `bash start`
 
