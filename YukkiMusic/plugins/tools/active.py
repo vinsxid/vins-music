@@ -44,7 +44,7 @@ async def activevc(_, message: Message):
         await mystic.edit_text("Tidak Ada Obrolan Suara Aktif")
     else:
         await mystic.edit_text(
-            f"**Obrolan Suara Aktif:-**\n\n{text}",
+            f"**Obrolan Suara Aktif:**\n\n{text}",
             disable_web_page_preview=True,
         )
 
@@ -72,6 +72,6 @@ async def activevi_(_, message: Message):
         await mystic.edit_text("Tidak Ada Obrolan Video Aktif")
     else:
         await mystic.edit_text(
-            f"**Obrolan Video Aktif:-**\n\n{text}",
+            f"**Obrolan Video Aktif:**\n\n{text}",
             disable_web_page_preview=True,
         )
