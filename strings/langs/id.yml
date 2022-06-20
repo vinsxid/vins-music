@@ -19,8 +19,8 @@ call_3 : "Pengecualian Terjadi Saat Mengundang Akun Asisten ke chat Anda.\n\n**A
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** Izin untuk mengundang akun asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
 call_6 : "Akun Asisten[{0}] Berhasil Bergabung.\n\nMulai Musik Sekarang"
-call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **BAN PENGGUNA** dari bot."
-call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari bot."
+call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **BAN PENGGUNA** dari Bot."
+call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus hak **TAMBAHKAN ADMIN BARU** dari Bot."
 call_9 : "**Gagal mengganti Aliran**\nSilakan gunakan /skip untuk mengganti trek lagi."
 call_10 : "Mengunduh Lagu Berikutnya dari Daftar Putar"
 call_11 : "Tolong tambahkan @{0} ke channel Anda[ ID: {1}].\n\nBot tidak bisa mendapatkan detail Channel."
@@ -75,15 +75,15 @@ admin_34 : "Gagal mencari aliran saat ini."
 
 # Start
 start_1 : "Terima kasih telah menerima saya di {0}.\n{1} Saya Masih Berfungsi.\n\nUntuk bantuan atau bantuan apa pun, periksa Grup dan Channel Support kami."
-start_2 : "Halo, Nama saya {0}.\n\nSaya bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegrupmu."
+start_2 : "Halo, Nama saya {0}.\n\nSaya Bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegrupmu."
 start_3 : "Selamat datang di {0}\n\nSaya tidak memerlukan **izin admin** untuk bekerja ( sampai diminta ).\n\nNama Pengguna Asisten:- @{1}\nID Asisten:- {2} "
 start_4 : "Pemilik {0}[{1}] baru saja bergabung dengan obrolan Anda."
 start_5 : "Anggota Pengguna Sudo {0}[{1}] baru saja bergabung dengan obrolan Anda."
-start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **grup** Anda menjadi **grup super** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat grup super?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat** sekali."
+start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **grup** Anda menjadi **Supergrup** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat super grup?**\n✅ Jadikan riwayat obrolan grup Anda **terlihat** sekali."
 start_7 : "**Obrolan Daftar Hitam**\n\nObrolan Anda telah dimasukkan dalam daftar hitam oleh Bot. Silakan minta SudoUser untuk memasukkan obrolan ke daftar putih terlebih dahulu. Periksa [Sudolist dari sini]({0})"
 
 # Help
-help_1 : "Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik bot saya atau bertanya di Grup dukungan.\n\nSemua perintah dapat digunakan dengan: /"
+help_1 : "Klik tombol di bawah untuk informasi lebih lanjut. Jika Anda menghadapi masalah dalam perintah, Anda dapat menghubungi pemilik Bot saya atau bertanya di Grup dukungan.\n\nSemua perintah dapat digunakan dengan: /"
 help_2 : "Hubungi saya di PM untuk bantuan."
 
 # Settings
@@ -97,8 +97,8 @@ setting_11 : "⁉️ Apa Ini?\n\n1) Siapa saja dapat menggunakan perintah admin 
 setting_12 : "❌ Anda tidak memiliki id channel yang ditentukan untuk mode channel. Silakan tentukan dengan /channelplay."
 setting_13 : "Tidak dapat mengubah mode putar dalam panggilan grup aktif. Harap hentikan obrolan suara terlebih dahulu dengan /stop."
 setting_14 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan segera menghapus perintah yang dijalankannya.\n\nBot akan membutuhkan hak menghapus pesan admin untuk ini bekerja dengan benar."
-setting_15 : "Gagal menyelesaikan peer, Pastikan Anda telah menambahkan bot di channel Anda dan mempromosikannya sebagai admin.\n\nCoba setel /channelplay lagi.."
-setting_16 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menyarankan obrolan Anda setiap 1-2 jam tentang perintah bot (Cara menggunakannya, yang merupakan perintah dan banyak hal lainnya) secara acak."
+setting_15 : "Gagal menyelesaikan peer, Pastikan Anda telah menambahkan Bot di channel Anda dan mempromosikannya sebagai admin.\n\nCoba setel /channelplay lagi.."
+setting_16 : "⁉️ Apa Ini?\n\nSaat diaktifkan, Bot akan menyarankan obrolan Anda setiap 1-2 jam tentang perintah Bot (Cara menggunakannya, yang merupakan perintah dan banyak hal lainnya) secara acak."
 
 
 set_cb_1 : "Mendapatkan Panel Kualitas Audio..."
@@ -116,15 +116,15 @@ ustats_2 : "Salam!, Anda telah memainkan **{0}** trek sampai sekarang dengan hit
 
 gstats_1 : "Mendapatkan Statistik Global, Ini bisa memakan waktu..."
 gstats_2 : "Statistik Tidak Ditemukan."
-gstats_3 : "Mendapatkan 10 Teratas Global {0} di bot, Ini bisa memakan waktu lama.."
+gstats_3 : "Mendapatkan 10 Teratas Global {0} di Bot, Ini bisa memakan waktu lama.."
 gstats_4 : "**Total Permintaan di Bot:** {0}\n\n{1} telah memainkan **{2}** trek hingga sekarang dengan jumlah **{3}** kali.\n \n**Trek {4} Teratas:**\n"
 gstats_5 : "**Top {0} Obrolan {1}:**\n\n"
 gstats_6 : "**Pengguna {0} Teratas {1}:**\n\n"
 gstats_7 : "Grup obrolan ini telah memainkan **{0}** trek hingga sekarang dengan jumlah **{1}** kali.\n\n{2} teratas dimainkan oleh grup obrolan ini:\n\n"
 gstats_8 : "Mendapatkan statistik dan informasi umum Bot.. Ini bisa memakan waktu..."
-gstats_9 : "**GLOBAL TOP 10 STATS OF THE BOT**\n\nPilih tombol dari bawah yang ingin Anda periksa statistik globalnya dari server bot."
-gstats_10 : "**Statistik Global {0}**\n\nPilih tombol dari bawah yang ingin Anda periksa statistik globalnya dari server bot."
-gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda periksa statistik globalnya dari server bot.\n\nUntuk memeriksa trek teratas, obrolan, pengguna, dan hal-hal lain, gunakan /gstats "
+gstats_9 : "**GLOBAL TOP 10 STATS OF THE BOT**\n\nPilih tombol dari bawah yang ingin Anda periksa statistik globalnya dari server Bot."
+gstats_10 : "**Statistik Global {0}**\n\nPilih tombol dari bawah yang ingin Anda periksa statistik globalnya dari server Bot."
+gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda periksa statistik globalnya dari server Bot.\n\nUntuk memeriksa trek teratas, obrolan, pengguna, dan hal-hal lain, gunakan /gstats "
 
 
 # Play 
@@ -137,7 +137,7 @@ play cb2 : "Mendapatkan Hasil Selanjutnya"
 cplay_1 : "Anda dapat memutar musik di Channel dari obrolan ini[{0}] ke channel mana pun atau Channdl tertaut obrolan Anda.\n\n**Untuk channel tertaut:**\n`/{1} linked`\n\n* *Untuk Channel lainnya:**\n`/{1} [ID Channel]`"
 cplay_2 : "Obrolan ini tidak memiliki channel tertaut."
 cplay_3 : "Channel Ditetapkan ke {0}\n\n__ID Channel__: {1}"
-cplay_4 : "Gagal mendapatkan channel.\n\nPastikan Anda telah menambahkan bot di channel Anda dan mempromosikannya sebagai admin.\nEdit atau Ubah channel melalui /channelplay"
+cplay_4 : "Gagal mendapatkan channel.\n\nPastikan Anda telah menambahkan Bot di channel Anda dan mempromosikannya sebagai admin.\nEdit atau Ubah channel melalui /channelplay"
 cplay_5 : "Hanya Channel yang didukung."
 cplay_6 : "Anda harus menjadi **Pemilik** channel[{0}] untuk menghubungkannya dengan grup ini.\n**Pemilik Channel:** @{1}\n\nAtau Anda dapat menautkan grup Anda ke channel itu lalu coba sambungkan dengan `/channelplay linked`"
 
@@ -156,7 +156,7 @@ play_11 : "📎 Judul: **{0}\n\n⏳ Durasi:** {1} Menit"
 play_12 : "**Mode Putar Spotify**\n\nDiminta Oleh:- {0}"
 play_13 : "**Daftar Putar Apple**\n\nDiminta Oleh:- {0}"
 play_14 : "**Tidak dapat memverifikasi URL.**\nBot bertanya apakah url ini milik salah satu platform berikut: Youtube, AppleMusic, Spotify, Resso, dan Soundcloud.\n\nAnda dapat menggunakan /stream untuk M3u8 atau Remote Links ."
-play_15 : "**Live Stream Terdeteksi**\n\nSistem telah mendeteksi tautan trek Anda sebagai streaming langsung. Ingin memutar streaming langsung ?"
+play_15 : "**Live Stream Terdeteksi**\n\nSistem telah mendeteksi tautan trek Anda sebagai Live streaming. Ingin memutar Live streaming ?"
 play_16 : "Gagal mengambil detail trek. Coba mainkan yang lain."
 play_17 : "Tidak dapat memainkan jenis kueri spotify ini!\n\nSaya hanya dapat memutar trek, album, artis, dan daftar putar spotify"
 play_18 : "**Tidak Ditemukan Obrolan Suara Aktif**\n\nUntuk menggunakan force play, harus ada obrolan suara aktif yang terjadi di grup Anda. **Force Play** menghentikan trek yang sedang diputar di obrolan suara dan mulai memutar menelusuri trek secara instan tanpa mengganggu/mengosongkan antrean."
@@ -189,28 +189,28 @@ playmode_2 : "Setelan diubah dan berhasil disimpan oleh {0}"
 #Stream 
 str_1 : "Harap Berikan Link M3u8 atau Link Indeks."
 str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu memproses tautan.."
-str_3 : "Tidak dapat melakukan streaming streaming langsung youtube. Format Langsung Tidak Ditemukan"
+str_3 : "Tidak dapat melakukan streaming youtube. Format Streaming Tidak Ditemukan"
 
 #TopPlay
 track_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu...\n\n**👤Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
-track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server bot. Silakan coba playlist lain"
+track_2 : "**Error**\n\nTidak ada **{0} Top 10 Playlist** di server Bot. Silakan coba playlist lain"
 
 # TOOLS
 
 #Lyrics
-lyrics_1 : "**Penggunaan:**\n\n/lirik [Nama Musik]"
+lyrics_1 : "**Penggunaan:**\n\n/lyrics [Judul Lagu]"
 lyrics_2 : "Mencari Lirik"
 lyrics_3 : "❌ Gagal mengambil lirik😞.\n\n💡 **Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari lirik untuk menghindari pencarian lirik jenis spam yang panjang."
 
 #Ping
 ping_1 : "Pong!!!!"
-ping_2 : "**{0}** Bekerja dengan baik...\n\n**× 𝙿𝙸𝙽𝙶: `{1}` ms.\n× 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n× 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: `{3}`\n× 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: `{4}`\n× 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: `{5}`\n× 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
+ping_2 : "**{0}** Bekerja dengan Baik...\n\n❏ 𝙳𝚎𝚝𝚊𝚒𝚕:\n**├• 𝙿𝙸𝙽𝙶: `{1}` ms.\n├• 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n├• 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: `{3}`\n├• 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: `{4}`\n├• 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: `{5}`\n├• 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
 
 # Song
 song_1 : "Anda dapat mengunduh Musik atau Video dari YouTube hanya dalam obrolan pribadi. Silakan mulai saya dalam obrolan pribadi."
 song_2 : "**Penggunaan:**\n\n/song [Nama Musik] atau [Tautan YouTube]"
-song_3 : "Live Link Detected. Saya tidak bisa mendownload video live youtube."
+song_3 : "Live Link Detected. Saya tidak bisa mendownload video Live youtube."
 song_4 : "**🔗 Judul:**- {0}\n\nPilih jenis yang ingin Anda unduh."
 song_5 : "Bukan Tautan Youtube yang valid"
 song_6 : "Mendapatkan Format.. \n\nMohon Tunggu.."
