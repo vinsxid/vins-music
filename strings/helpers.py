@@ -7,7 +7,7 @@
 #
 # All rights reserved.
 
-HELP_1 = """✅**Perintah Admin**
+HELP_1 = """✅ **Perintah Admin**
 
 **c** singkatan dari pemutaran Channel.
 
@@ -23,14 +23,13 @@ HELP_1 = """✅**Perintah Admin**
 /restart - Mulai ulang bot untuk obrolan Anda .
 
 
-✅**Lewati Spesifik:**
-/skip atau /cskip [Nomor(contoh: 3)] 
-    - Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
+✅ **Lewati Spesifik:**
+/skip atau /cskip [Nomor(contoh: 3)] - Melewati musik ke nomor antrian yang ditentukan. Contoh: /skip 3 akan melewatkan musik ke musik antrian ketiga dan akan mengabaikan musik 1 dan 2 dalam antrian.
 
-✅**Putar loop:**
+✅ **Putar loop:**
 /loop atau /cloop [enable|disable] atau [Angka 1-10] - Saat diaktifkan, bot memutar musik yang sedang diputar menjadi 1-10 kali pada obrolan suara. Default ke 10 kali.
 
-✅**Pengguna Auth:**
+✅ **Pengguna Auth:**
 Pengguna Auth dapat menggunakan perintah admin tanpa hak Admin di Grup Anda.
 
 /auth [Username] - Tambahkan pengguna ke AUTH LIST dari grup.
@@ -38,7 +37,7 @@ Pengguna Auth dapat menggunakan perintah admin tanpa hak Admin di Grup Anda.
 /authusers - Periksa DAFTAR AUTH grup."""
 
 
-HELP_2 = """✅**Perintah Putar:**
+HELP_2 = """✅ **Perintah Putar:**
 
 Perintah yang tersedia = play , vplay , cplay
 
@@ -46,26 +45,26 @@ Perintah ForcePlay = playforce , vplayforce , cplayforce
 
 **c** singkatan dari pemutaran Channel.
 **v** singkatan dari pemutaran video.
-**force** singkatan dari force play.
+**force** singkatan dari play force.
 
-/play atau /vplay atau /cplay  - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
+/play atau /vplay atau /cplay - Bot akan mulai memainkan kueri yang Anda berikan di obrolan suara atau Streaming tautan langsung di obrolan suara.
 
-/playforce atau /vplayforce atau /cplayforce -  **Force Play** menghentikan trek yang sedang diputar pada obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrean.
+/playforce atau /vplayforce atau /cplayforce - **Play Force** menghentikan trek yang sedang diputar pada obrolan suara dan mulai memutar trek yang dicari secara instan tanpa mengganggu/mengosongkan antrian.
 
 /channelplay [Nama pengguna atau id obrolan] atau [Disable] - Hubungkan saluran ke grup dan streaming musik di obrolan suara saluran dari grup Anda.
 
 
-✅**Daftar Putar Server Bot:**
-/playlist  - Periksa Daftar Putar Tersimpan Anda Di Server.
+✅ **Daftar Putar Server Bot:**
+/playlist  - Periksa Daftar Putar Tersimpan Anda di Server.
 /deleteplaylist - Hapus semua musik yang disimpan di daftar putar Anda
 /play - Mulai mainkan Daftar Putar Tersimpan Anda dari Server."""
 
 
-HELP_3 = """✅**Perintah Bot:**
+HELP_3 = """✅ **Perintah Bot:**
 
 /stats - Dapatkan 10 Trek Global Stats Teratas, 10 Pengguna Bot Teratas, 10 Obrolan Teratas di bot, 10 Teratas Dimainkan dalam obrolan, dll.
 
-/lyrics [Nama Musik] mencari Lirik untuk Musik tertentu di web.
+/lyrics [Nama Musik] - mencari Lirik untuk Musik tertentu di web.
 
 /song [Nama Trek] atau [Tautan YT] - Unduh trek apa pun dari youtube dalam format mp3 atau mp4.
 
@@ -73,14 +72,14 @@ HELP_3 = """✅**Perintah Bot:**
 
 **c** singkatan dari pemutaran saluran.
 
-/queue atau /cqueue- Periksa Daftar Antrian Musik."""
+/queue atau /cqueue - Periksa Daftar Antrian Musik."""
 
-HELP_4 = """✅**Perintah Ekstra:**
+HELP_4 = """✅ **Perintah Ekstra:**
 /start - Mulai Bot Musik.
 /help - Dapatkan Menu Pembantu Perintah dengan penjelasan rinci tentang perintah.
 /ping- Ping Bot dan periksa statistik RAM, CPU, dll dari Bot.
 
-✅**Pengaturan Grup:**
+✅ **Pengaturan Grup:**
 /settings - Dapatkan pengaturan grup lengkap dengan tombol sebaris
 
 🔗 **Opsi di Pengaturan:**
@@ -99,7 +98,7 @@ HELP_4 = """✅**Perintah Ekstra:**
 
 /playmode - Dapatkan panel pengaturan pemutaran lengkap dengan tombol tempat Anda dapat mengatur pengaturan pemutaran grup Anda. 
 
-Pilihan di playmode:
+Pilihan di Playmode:
 
 1️⃣ **Mode Pencarian** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
 
@@ -112,15 +111,15 @@ HELP_5 = """🔰**ADD & REMOVE SUDO USERS :**
 /delsudo [Username atau Balas ke pengguna] - Hapus pengguna Sudo
 /sudolist - Periksa Daftar Pengguna Sudo
 
-🛃**HEROKU:**
+🛃 **HEROKU:**
 /usage - Penggunaan Dyno.
 
-🌐**KONFIGURASI VARS:**
+🌐 **KONFIGURASI VARS:**
 /get_var - Dapatkan config var dari Heroku atau .env
 /del_var - Hapus semua var di Heroku atau .env
 /set_var [Nama Var] [Value] - Setel Var atau Perbarui Var di heroku atau .env. Pisahkan Var dan Nilainya dengan spasi.
 
-🤖**PERINTAH BOT:**
+🤖 **PERINTAH BOT:**
 /reboot - Memulai ulang Bot Anda.
 /restart - Memulai ulang Bot Anda.
 /update - Update Bot.
@@ -129,39 +128,39 @@ HELP_5 = """🔰**ADD & REMOVE SUDO USERS :**
 /logger [enable|disable] - Bot mencatat kueri yang dicari di logger.
 /get_log [Nomor Line] - Dapatkan log bot Anda dari heroku atau vps. Bekerja untuk keduanya.
 
-📈**PERINTAH STATIS:**
+📈 **PERINTAH STATIS:**
 /activevoice - Periksa obrolan suara aktif di bot.
 /activevideo - Periksa obrolan video aktif di bot.
 /stats - Periksa Statistik Bot
 
-⚠️**FUNGSI BLACKLIST CHAT:**
+⚠️ **FUNGSI BLACKLIST CHAT:**
 /blacklistchat [CHAT_ID] - Daftar hitam obrolan apa pun dari menggunakan Bot Musik
 /whitelistchat [CHAT_ID] - Daftar putih obrolan apa pun yang masuk daftar hitam dari menggunakan Bot Musik
 /blacklistedchat - Periksa semua obrolan yang masuk daftar hitam.
 
-👤**FUNGSI TERBLOKIR:**
+👤 **FUNGSI TERBLOKIR:**
 /block [Username atau Balas ke pengguna] - Mencegah pengguna menggunakan perintah bot.
 /unblock [Username atau Balas ke pengguna] - Hapus pengguna dari Daftar Blokir Bot.
 /blockedusers - Periksa Daftar Pengguna yang diblokir
 
-👤**FUNGSI GBAN:**
+👤 **FUNGSI GBAN:**
 /gban [Username atau Balas ke pengguna] - Gban pengguna dari semua obrolan grup bot akan hentikan dia menggunakan bot Anda.
 /ungban [Username atau Balas ke pengguna] - Hapus pengguna dari Daftar gbanned Bot dan izinkan dia menggunakan bot Anda
 /gbannedusers - Periksa Daftar Pengguna Gbanned
 
-🎥**FUNGSI VIDEOCALL:**
+🎥 **FUNGSI VIDEOCALL:**
 /set_video_limit [Obrolan yang diizinkan] - Tetapkan Jumlah Obrolan maksimum yang diizinkan untuk Panggilan Video dalam satu waktu. Default untuk 3 obrolan.
 /videomode [download|m3u8] - Jika mode unduh diaktifkan, Bot akan mengunduh video alih-alih memutarnya dalam bentuk M3u8. Secara default ke M3u8. Anda dapat menggunakan mode unduhan saat kueri apa pun tidak diputar dalam mode m3u8.
 
-⚡️**FUNGSI BOT PRIBADI:**
+⚡️ **FUNGSI BOT PRIBADI:**
 /authorize [CHAT_ID] - Izinkan obrolan untuk menggunakan bot Anda.
 /unauthorize [CHAT_ID] - Larang obrolan menggunakan bot Anda.
 /authorized - Periksa semua obrolan yang diizinkan dari bot Anda.
 
-🌐**FUNGSI BROADCAST:**
+🌐 **FUNGSI BROADCAST:**
 /broadcast [Message atau Balas pesan] - Siarkan pesan apa pun ke Obrolan yang akses oleh Bot.
 
-Opsi untuk broadcast:
+Opsi untuk Broadcast:
 **-pin** : Ini akan menyematkan pesan Anda
 **-pinloud** : Ini akan menyematkan pesan Anda dengan pemberitahuan
 **-user** : Ini akan menyiarkan pesan Anda ke pengguna yang telah memulai bot Anda.
