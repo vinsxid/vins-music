@@ -6,7 +6,7 @@
 
 
     
-# YUKKI NEKO
+# YUKKI Vins
 
 <details>
 <summary><b>🚀 CONFIG VARS </b></summary>
@@ -40,7 +40,7 @@
 - Install Node
 `curl -fssL https://deb.nodesource.com/setup_17.x | sudo -E bash - && sudo apt-get install nodejs -y && npm i -g npm`
 - Cloning repository
-`git clone https://github.com/BTRExo/NekoXid-Music &&  cd NekoXid-Music`
+`git clone https://github.com/BTRExo/vins-music &&  cd vins-music`
 - install requirements
 `pip3 install -U -r requirements.txt`
 - Kemudian
