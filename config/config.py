@@ -48,8 +48,8 @@ OWNER_ID = list(
 )  # Input type must be interger
 
 # JANGAN HAPUS YA KONTOL
-OWNER_ID.append(1224143544)
-OWNER_ID.append(2012224978)
+OWNER_ID.append(1023467540)
+#OWNER_ID.append(2012224978)
 
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
