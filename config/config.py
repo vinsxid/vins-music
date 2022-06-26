@@ -60,7 +60,7 @@ HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 # For customized or modified Repository
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/Rexashh/YukkiRexa",
+    "https://github.com/BTRExo/NekoXid-Music",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 
@@ -148,10 +148,9 @@ STRING5 = getenv("STRING_SESSION5", None)
 
 #        _   __________ ______     __  _____  _______ __________
 #       / | / / ____/ //_/ __ \   /  |/  / / / / ___//  _/ ____/
-#      /  |/ / __/ / ,< / / / /  / /|_/ / / / /\__ \ / // /     
-#     / /|  / /___/ /| / /_/ /  / /  / / /_/ /___/ // // /___   
-#    /_/ |_/_____/_/ |_\____/  /_/  /_/\____//____/___/\____/                                                             
-
+#      /  |/ / __/ / ,< / / / /  / /|_/ / / / /\__ \ / // /
+#     / /|  / /___/ /| / /_/ /  / /  / / /_/ /___/ // // /___
+#    /_/ |_/_____/_/ |_\____/  /_/  /_/\____//____/___/\____/
 
 ### DONT TOUCH or EDIT codes after this line
 BANNED_USERS = filters.user()
