@@ -19,7 +19,7 @@ call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran
 call_3 : "**Pengecualian Terjadi** saat Mengundang Akun Asisten ke obrolan Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** Izin untuk mengundang akun Asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
-call_6 : "Akun Asisten **[{0}]** Berhasil bergabung.\n\nMulai Musik Sekarang"
+call_6 : "Akun Asisten **[{0}]** Berhasil bergabung.\n\nPutar Sekarang"
 call_7 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus Hak **BAN PENGGUNA** dari Bot."
 call_8 : "**Hak Admin yang Berbahaya Diberikan **\n\nHarap hapus Hak **TAMBAHKAN ADMIN BARU** dari Bot."
 call_9 : "**Gagal mengganti Aliran**\nSilahkan gunakan /skip untuk mengganti trek lagi."
