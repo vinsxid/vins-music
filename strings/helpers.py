@@ -120,7 +120,7 @@ HELP_5 = """🔰**ADD & REMOVE SUDO USERS :**
 /set_var [Nama Var] [Value] - Setel Var atau Perbarui Var di heroku atau .env. Pisahkan Var dan Nilainya dengan spasi.
 
 🤖 **PERINTAH BOT:**
-/reboot - Memulai ulang Bot Anda.
+/reboot - Memulai ulang Bot di Server.
 /restart - Memulai ulang Bot Anda.
 /update - Update Bot.
 /speedtest - Check server speeds
