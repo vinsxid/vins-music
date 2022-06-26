@@ -49,7 +49,7 @@ async def reload_admin_cache(client, message: Message, _):
         await message.reply_text(_["admin_20"])
     except:
         await message.reply_text(
-            "Gagal memuat ulang admincache. Pastikan Bot adalah admin di obrolan Anda."
+            "❎ Gagal memuat ulang admincache. **Pastikan Bot adalah admin di obrolan Anda.**"
         )
 
 
@@ -62,7 +62,7 @@ async def reload_admin_cache(client, message: Message, _):
 @AdminActual
 async def restartbot(client, message: Message, _):
     mystic = await message.reply_text(
-        f"Harap Tunggu.. Mulai ulang {MUSIC_BOT_NAME} untuk obrolanmu.."
+        f"⏳ Harap Tunggu.. Memulai ulang {MUSIC_BOT_NAME}"
     )
     await asyncio.sleep(1)
     try:
@@ -82,7 +82,7 @@ async def restartbot(client, message: Message, _):
         except:
             pass
     return await mystic.edit_text(
-        "Berhasil memulai ulang. Coba mainkan sekarang.."
+        "✅ Berhasil memulai ulang. Coba mainkan sekarang.."
     )
 
 
