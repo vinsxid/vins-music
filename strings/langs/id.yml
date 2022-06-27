@@ -130,7 +130,7 @@ gstats_11 : "**Statistik Umum {0}**\nPilih tombol dari bawah yang ingin Anda per
 # Play 
 
 #Play Callback 
-playcb_1 : "❎ Ini bukan untukmu! Cari Lagumu Sendiri."
+playcb_1 : "❌ Ini bukan untukmu! Cari Lagumu Sendiri."
 playcb_2 : "Mendapatkan Hasil Selanjutnya"
 
 # Channel Play
@@ -183,7 +183,7 @@ playlist_17 : "Posisi Antrian-"
 playlist_18 : "[Checkout seluruh antrian Daftar Putar]({0})\n\nPosisi Antrian Terakhir : **{1}**"
 
 #Playmode
-playmode_1 : "Silahkan pilih mode mana yang Anda inginkan di dalam grup Anda [{0}]."
+playmode_1 : "Silahkan pilih Mode mana yang Anda inginkan di dalam grup Anda [{0}]."
 playmode_2 : "Setelan diubah dan Berhasil disimpan Oleh `{0}`"
 
 #Stream 
@@ -200,11 +200,11 @@ track_2 : "**Error**\n\nTidak ada **{0} Top 10 Daftar Putar** di server Bot. Sil
 #Lyrics
 lyrics_1 : "**Penggunaan:**\n\n/lyrics [Judul]"
 lyrics_2 : "🚀 Mencari Lirik"
-lyrics_3 : "❎ Gagal mengambil Lirik😞.\n\n💡 **Mencoba Mencari:** {0}"
+lyrics_3 : "Gagal mengambil Lirik😞.\n\n💡 **Mencoba Mencari:** {0}"
 lyrics_4 : "Klik tombol di bawah ini dan cari Lirik untuk menghindari pencarian Lirik jenis spam yang panjang."
 
 #Ping
-ping_1 : "Pong!!!!"
+ping_1 : "ᴘᴏɴɢ🏓!!"
 ping_2 : "**{0}** Bekerja dengan Baik..\n\n**❏ 𝙳𝚎𝚝𝚊𝚒𝚕:\n├• 𝙿𝙸𝙽𝙶: `{1}` ms.\n├• 𝚆𝙰𝙺𝚃𝚄 𝙰𝙺𝚃𝙸𝙵: {2}\n├• 𝙱𝙴𝙱𝙰𝙽 𝙳𝙸𝚂𝙺: `{3}`\n├• 𝙱𝙴𝙱𝙰𝙽 𝙲𝙿𝚄: `{4}`\n├• 𝙱𝙴𝙱𝙰𝙽 𝚁𝙰𝙼: `{5}`\n└• 𝙿𝚈-𝚃𝙶𝙲𝙰𝙻𝙻𝚂 𝙿𝙸𝙽𝙶: `{6}` ms.**"
 
 # Song
@@ -265,7 +265,7 @@ H_B_6 : "Perintah Sudo"
 #PlayMode
 PM_B_1 : "Direct"
 PM_B_2 : "Markup Inline"
-PM_B_3 : "ChannelPlay"
+PM_B_3 : "Channel Play"
 
 #Play
 P_B_1 : "🎵 ᴀᴜᴅɪᴏ"
