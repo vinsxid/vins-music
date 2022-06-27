@@ -19,15 +19,15 @@ async def play_logs(message, streamtype):
         else:
             chatusername = "Private Group"
         logger_text = f"""
-**LOG PEMUTARAN BOT MUSIC**
+**📋 LOG PEMUTARAN BOT MUSIC**
 
 **❏ Detail:**
 **├• Grup:** {message.chat.title} 
-**├• ID Grup:** [`{message.chat.id}`]
+**├• Grup ID:** [`{message.chat.id}`]
 **├• Pengguna:** {message.from_user.mention}
 **├• Username:** @{message.from_user.username}
-**├• User ID:** `{message.from_user.id}`
-**└• Obrolan:** {chatusername}
+**├• User ID:** [`{message.from_user.id}`]
+**└• Link:** {chatusername}
 
 **Perintah:** {message.text}
 
