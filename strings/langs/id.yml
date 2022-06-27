@@ -1,5 +1,4 @@
 name : Indonesia
-
 #By Nekoxid-Music
 # General Strings
 general_1 : "Balas pesan pengguna atau berikan username/id_pengguna"
@@ -442,7 +441,7 @@ gban_10 : "Tidak Ditemukan Pengguna yang Di-Gban."
 gban_11 : "Harap tunggu sebentar.. Mengambil Daftar pengguna Gbanned"
 
 #Suggestions
-sug_0 : "❓**Tahukah Anda?**\n\n"
+sug_0 : "❓**Tahukah Anda?**\n\n "
 sug_1 : "Anda dapat memutar musik dalam dua **Mode Pencarian** yaitu Mode **Direct** dan Mode **Inline**.\n\nUbah mode melalui /playmode"
 sug_2 : "Anda dapat memutar musik dalam dua **Mode Pemutaran** yaitu Mode **Semuanya** dan Mode **Admin**.\n\nUbah mode melalui /playmode"
 sug_3 : "Anda juga dapat memutar musik di **Channel**.\n\nSetel channel_id melalui /channelplay dan putar melalui /cplay "
@@ -457,7 +456,7 @@ sug_11 : "Anda dapat menyetel **Kualitas Audio** Obrolan suara ke Rendah, Sedang
 sug_12 : "Anda dapat menyetel **Kualitas Video** obrolan suara ke Rendah, Sedang, atau Tinggi.\n\nMenyetel kualitas melalui /settings"
 sug_13 : "Anda dapat memeriksa **Statistik** Anda di Bot seperti 10 Lagu Teratas yang Diputar.\n\nDapatkan Statistik: /gstats "
 sug_14 : "Anda dapat memeriksa **Statistik Grup** di Bot seperti 10 Lagu Teratas yang Diputar.\n\nDapatkan Statistik: /gstats "
-sug_15 : "Anda dapat memeriksa **Statistik Global** Bot seperti 10 pengguna Teratas, 10 Obrolan Teratas, 10 Trek Teratas, dll.\n\nPeriksa Statistik: /gstats "
+sug_15 : "Anda dapat memeriksa **Statistik Global** Bot seperti 10 Pengguna Teratas, 10 Obrolan Teratas, 10 Trek Teratas, dll.\n\nPeriksa Statistik: /gstats "
 sug_16 : "Anda dapat membisukan musik yang diputar di obrolan suara.\n\nPerintah: /mute"
 sug_17 : "Anda dapat mengaktifkan dan menonaktifkan musik yang diputar di obrolan suara.\n\nPerintah: /mute dan /unmute"
 sug_18 : "Anda dapat mencari lirik musik bersama kami..\n\nPerintah: /lyrics [Judul]"
