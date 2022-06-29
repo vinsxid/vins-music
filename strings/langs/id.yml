@@ -441,7 +441,7 @@ gban_10 : "Tidak Ditemukan Pengguna yang Di-Gban."
 gban_11 : "Harap tunggu sebentar.. Mengambil Daftar pengguna Gbanned"
 
 #Suggestions
-sug_0 : "❓**Tahukah Anda?**\n\n"
+sug_0 : "❓**Tahukah Anda?**\n\n✅ "
 sug_1 : "Anda dapat memutar musik dalam dua **Mode Pencarian** yaitu Mode **Direct** dan Mode **Inline**.\n\nUbah mode melalui /playmode"
 sug_2 : "Anda dapat memutar musik dalam dua **Mode Pemutaran** yaitu Mode **Semuanya** dan Mode **Admin**.\n\nUbah mode melalui /playmode"
 sug_3 : "Anda juga dapat memutar musik di **Channel**.\n\nSetel channel_id melalui /channelplay dan putar melalui /cplay "
