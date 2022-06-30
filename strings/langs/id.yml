@@ -6,7 +6,7 @@ general_2 : "Kesalahan! Penggunaan Perintah yang Salah."
 general_3 : "Beberapa **Pengecualian Terjadi** saat memproses permintaan Anda.\n\nJenis Pengecualian:- {0}"
 general_4 : "Anda adalah admin anonim di grup obrolan ini!\nKembali ke akun Hak Admin."
 general_5 : "Anda harus menjadi Admin dengan mengelola Hak Obrolan suara untuk melakukan tindakan ini."
-general_6 : "❎ Bot tidak Streaming di Obrolan suara."
+general_6 : "❌ **Bot tidak Streaming di Obrolan suara.**"
 
 # Classes - Telegram.py
 tg_1 : "Bot **Kelebihan Beban** dengan unduhan sekarang.\n\n**Coba Setelah:** {0} (waktu yang diharapkan)"
@@ -18,7 +18,7 @@ call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran
 call_3 : "**Pengecualian Terjadi** saat Mengundang Akun Asisten ke obrolan Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** izin untuk mengundang akun Asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
-call_6 : "Akun Asisten **[{0}]** Berhasil bergabung.\n\nPutar Sekarang"
+call_6 : "Akun Asisten **[{0}]** Berhasil bergabung.\n\nPutar sekarang.."
 call_7 : "**Hak Admin yang Berbahaya diberikan**\n\nHarap hapus Hak **BAN PENGGUNA** dari Bot."
 call_8 : "**Hak Admin yang Berbahaya diberikan**\n\nHarap hapus Hak **TAMBAHKAN ADMIN BARU** dari Bot."
 call_9 : "**Gagal mengganti Aliran**\nSilahkan gunakan /skip untuk mengganti trek lagi."
