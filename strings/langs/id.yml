@@ -14,7 +14,7 @@ tg_2 : "Gagal mengunduh Media dari Telegram."
 
 # Core - Call.py
 call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke channel Anda."
-call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran.\n\n**Nama Asisten: {0}\nID Asisten:** `{1}`"
+call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran.\n\n**Nama Asisten:** @{0}\n**ID Asisten:** `{1}`"
 call_3 : "**Pengecualian Terjadi** saat Mengundang Akun Asisten ke obrolan Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** izin untuk mengundang akun Asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
@@ -76,7 +76,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 # Start
 start_1 : "Terima kasih telah menerima saya di **{0}**\n\n**{1}** masih Berfungsi.\n\nUntuk bantuan atau bantuan apa pun, periksa grup dan channel Support kami."
 start_2 : "Halo, Nama saya **{0}**\n\nSaya Bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegrupmu."
-start_3 : "Halo, Nama saya **{0}**\n\nSaya memerlukan **IZIN ADMIN** untuk Bekerja (izin standar).\n\n**Nama Asisten: {1}\nID Asisten:** `{2}`"
+start_3 : "Halo, Nama saya **{0}**\n\nSaya memerlukan **IZIN ADMIN** untuk Bekerja (izin standar).\n\n**Nama Asisten:** @{1}\n**ID Asisten:** `{2}`"
 start_4 : "**Pemilik** {0} [{1}] baru saja Bergabung dengan Obrolan."
 start_5 : "**Admin Sudo** {0} [{1}] baru saja Bergabung dengan Obrolan."
 start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **Grup** Anda menjadi **Supergrup** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat super grup?**\n✅ Jadikan riwayat Obrolan grup Anda **Terlihat**."
