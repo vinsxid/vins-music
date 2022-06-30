@@ -289,7 +289,7 @@ class Call(PyTgCalls):
                 )
             except Exception as e:
                 raise AssistantErr(
-                    "**Obrolan Suara Aktif Tidak Ditemukan**\n\nPastikan obrolan suara grup diaktifkan. Jika sudah diaktifkan, harap akhiri dan mulai obrolan suara baru lagi, jika masih error coba /restart"
+                    "**❌ Obrolan Suara Tidak Ditemukan**\n\nPastikan obrolan suara grup diaktifkan. Jika sudah diaktifkan, harap akhiri dan mulai obrolan suara baru lagi, jika masih error coba /restart"
                 )
         except AlreadyJoinedError:
             raise AssistantErr(
