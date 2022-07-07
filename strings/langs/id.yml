@@ -14,7 +14,7 @@ tg_2 : "Gagal mengunduh Media dari Telegram."
 
 # Core - Call.py
 call_1 : "Bot memerlukan Izin **Admin** untuk mengundang akun asisten ke channel Anda."
-call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran.\n\n**Nama Asisten:** @{0}\n**ID Asisten:** `{1}`"
+call_2 : "Asisten diblokir di grup atau channel Anda, harap batalkan pemblokiran.\n\n**Nama Asisten:** @{0}\n**ID Asisten:** {1}"
 call_3 : "**Pengecualian Terjadi** saat Mengundang Akun Asisten ke obrolan Anda.\n\n**Alasan**: {0}"
 call_4 : "Bot memerlukan **Undang Pengguna Melalui Tautan** izin untuk mengundang akun Asisten ke grup obrolan Anda."
 call_5 : "Akun Asisten akan bergabung dalam 5 Detik.. Harap Tunggu!"
@@ -58,9 +58,9 @@ admin_19 : "Anda harus menjadi Admin dengan Hak **Mengelola Obrolan suara** untu
 admin_20 : "✅ Daftar admin Berhasil dimuat ulang."
 admin_21 : "Tidak ada di dalam antrian untuk diacak"
 admin_22 : "Gagal mengacak.\n\nPeriksa antrian : /queue"
-admin_23 : "**Antrian Diacak Oleh `{0}`**\n\nPeriksa antrian yang diacak : /queue"
+admin_23 : "**Antrian Diacak Oleh {0}**\n\nPeriksa antrian yang diacak : /queue"
 admin_24 : "**Penggunaan:**\n/loop [enable|disable] atau [Angka antara 1-10]\n\n**Contoh:** /loop 5"
-admin_25 : "Loop Diaktifkan Oleh `{0}`\n**Sebanyak** [{1}] Kali.\n\nBot akan mengulang musik yang sedang diputar [{1}] Kali"
+admin_25 : "Loop Diaktifkan Oleh {0}\n**Sebanyak** [{1}] Kali.\n\nBot akan mengulang musik yang sedang diputar [{1}] Kali"
 admin_26 : "Silahkan gunakan angka antara 1-10 untuk loop play"
 admin_27 : "Pemutaran loop telah Dinonaktifkan"
 admin_28 : "**Penggunaan:**\n/seek atau /seekback [Durasi dalam detik]"
@@ -76,7 +76,7 @@ admin_34 : "Gagal mencari aliran saat ini."
 # Start
 start_1 : "Terima kasih telah menerima saya di **{0}**\n\n**{1}** masih Berfungsi.\n\nUntuk bantuan atau bantuan apa pun, periksa grup dan channel Support kami."
 start_2 : "Halo, Nama saya **{0}**\n\nSaya Bot streaming telegram dengan beberapa fitur berguna. Platform pendukung seperti Youtube, Spotify, Resso, AppleMusic , Soundcloud dll.\n\nJangan ragu untuk menambahkan saya kegrupmu."
-start_3 : "Halo, Nama saya **{0}**\n\nSaya memerlukan **IZIN ADMIN** untuk Bekerja.\n**(izin standar)**\n\n**Nama Asisten:** @{1}\n**ID Asisten:** `{2}`"
+start_3 : "Halo, Nama saya **{0}**\n\nSaya memerlukan **IZIN ADMIN** untuk Bekerja.\n**(izin standar)**\n\n**Nama Asisten:** @{1}\n**ID Asisten:** {2}"
 start_4 : "**Pemilik** {0} [{1}] baru saja Bergabung dengan Obrolan."
 start_5 : "**Admin Sudo** {0} [{1}] baru saja Bergabung dengan Obrolan."
 start_6 : "❗️ **Diperlukan Supergrup** ️\n\nHarap ubah **Grup** Anda menjadi **Supergrup** lalu tambahkan saya kembali.\n\n**Bagaimana cara membuat super grup?**\n✅ Jadikan riwayat Obrolan grup Anda **Terlihat**."
@@ -184,7 +184,7 @@ playlist_18 : "[Checkout seluruh antrian Daftar Putar]({0})\n\nPosisi Antrian Te
 
 #Playmode
 playmode_1 : "Silahkan pilih Mode mana yang Anda inginkan di dalam grup Anda [{0}]."
-playmode_2 : "Setelan diubah dan Berhasil disimpan Oleh `{0}`"
+playmode_2 : "Setelan diubah dan Berhasil disimpan Oleh {0}"
 
 #Stream 
 str_1 : "Harap Berikan Link M3u8 atau Link Indeks."
@@ -192,7 +192,7 @@ str_2 : "✅ Aliran Valid Terverifikasi\n\nHarap tunggu memproses tautan.."
 str_3 : "Tidak dapat melakukan streaming youtube. Format Streaming Tidak Ditemukan"
 
 #TopPlay
-track_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu..\n\n**👤 Diminta Oleh:** `{1}`\ n\nPeriksa 10 lagu teratas menurut /gstats"
+track_1 : "**Memproses {0} Daftar Putar 10 Teratas**\nIni bisa memakan waktu beberapa menit (sekitar 3-4 menit).. Harap Tunggu..\n\n**👤 Diminta Oleh:** {1}\ n\nPeriksa 10 lagu teratas menurut /gstats"
 track_2 : "**Error**\n\nTidak ada **{0} Top 10 Daftar Putar** di server Bot. Silahkan coba Daftar Putar lain"
 
 # TOOLS
@@ -224,14 +224,14 @@ song_11 : "Pengunggahan Dimulai\n\nKecepatan pengunggahan mungkin lambat. Harap 
 queue_1 : "Mohon Tunggu.. Mengambil Antrian.."
 queue_2 : "Daftar Antrian kosong. Tidak ada trek yang Ditemukan"
 queue_3 : "**Trek Antrian:** [Lihat Trek Antrian Lainnya Disini] ({0})"
-queue_4 : "⤵️ Ditambahkan ke Antrian » **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** `{3}`"
+queue_4 : "⤵️ Ditambahkan ke Antrian » **#{0}\n\n💡 Judul:** {1}\n⌛️ **Durasi:** {2}\n👤 **Ditambahkan Oleh:** {3}"
 queue_5 : "Hanya satu trek di dalam Antrian, Silahkan tambahkan lagi untuk check list"
 
 # All Streaming Lines
-stream_1 : "⚡ **Memulai Streaming** \n\n👤 **Diminta Oleh:** `{0}`\n🌐 **Informasi: **[Here]({1})"
-stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤 **Diminta Oleh:** `{0}`"
-stream_3 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** {0}\n⌛️ **Durasi**: {1}\n👤 **Diminta Oleh:** `{2}`"
-stream_4 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** [{0}]({1})\n⌛️ **Durasi**: {2}\n👤 **Diminta Oleh:** `{3}`"
+stream_1 : "⚡ **Memulai Streaming** \n\n👤 **Diminta Oleh:** {0}\n🌐 **Informasi: **[Here]({1})"
+stream_2 : "⚡ **Memulai Streaming melalui URL ** \n\n👤 **Diminta Oleh:** {0}"
+stream_3 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** {0}\n⌛️ **Durasi**: {1}\n👤 **Diminta Oleh:** {2}"
+stream_4 : "⚡ **Memulai Streaming** \n\n**🏷 Judul:** [{0}]({1})\n⌛️ **Durasi**: {2}\n👤 **Diminta Oleh:** {3}"
 
 # Inline Buttons
 
