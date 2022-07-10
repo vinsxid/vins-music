@@ -8,9 +8,13 @@
 # All rights reserved.
 
 import asyncio
+from datetime import datetime
 
 import config
-from YukkiMusic.utils.database import get_client, is_active_chat
+from YukkiMusic import app
+from YukkiMusic.core.call import Yukki, autoend
+from YukkiMusic.utils.database import (get_client, is_active_chat,
+                                       is_autoend)
 
 
 async def auto_leave():
@@ -22,6 +26,7 @@ async def auto_leave():
 
             for num in assistants:
                 client = await get_client(num)
+                left = 0
                 try:
                     async for i in client.iter_dialogs():
                         chat_type = i.chat.type
@@ -33,16 +38,18 @@ async def auto_leave():
                             chat_id = i.chat.id
                             if (
                                 chat_id != config.LOG_GROUP_ID
-                                and chat_id != -1001680367997
-                                #and chat_id != -1001190342892
+                                and chat_id != -1001636028542
                                 #and chat_id != -1001733534088
                                 #and chat_id != -1001443281821
                             ):
+                                if left == 20:
+                                    continue
                                 if not await is_active_chat(chat_id):
                                     try:
                                         await client.leave_chat(
                                             chat_id
                                         )
+                                        left += 1
                                     except:
                                         continue
                 except:
@@ -50,3 +57,32 @@ async def auto_leave():
 
 
 asyncio.create_task(auto_leave())
+
+
+async def auto_end():
+    while not await asyncio.sleep(5):
+        if not await is_autoend():
+            continue
+        for chat_id in autoend:
+            timer = autoend.get(chat_id)
+            if not timer:
+                continue
+            if datetime.now() > timer:
+                if not await is_active_chat(chat_id):
+                    autoend[chat_id] = {}
+                    continue
+                autoend[chat_id] = {}
+                try:
+                    await Yukki.stop_stream(chat_id)
+                except:
+                    continue
+                try:
+                    await app.send_message(
+                        chat_id,
+                        "🏃🏻 Bot telah meninggalkan obrolan suara karena tidak aktif, untuk menghindari kelebihan beban di server.",
+                    )
+                except:
+                    continue
+
+
+asyncio.create_task(auto_end())
