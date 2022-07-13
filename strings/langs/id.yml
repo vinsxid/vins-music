@@ -134,7 +134,7 @@ playcb_1 : "❌ Ini bukan untukmu! Cari Lagumu Sendiri."
 playcb_2 : "Mendapatkan Hasil Selanjutnya"
 
 # Channel Play
-cplay_1 : "Anda dapat memutar musik di Channel dari obrolan ini[{0}] ke Channel mana pun atau Channel tertaut obrolan Anda.\n\n**Untuk Channel Tertaut:**\n`/{1} Linked`\n\n* *Untuk Channel Lainnya:**\n`/{1} [ID Channel]`"
+cplay_1 : "Anda dapat memutar musik di Channel dari obrolan ini [{0}] ke Channel mana pun atau Channel tertaut obrolan Anda.\n\n**Untuk Channel Tertaut:**\n`/{1} Linked`\n\n**Untuk Channel Lainnya:**\n`/{1} [ID Channel]`"
 cplay_2 : "Obrolan ini tidak memiliki Channel tertaut."
 cplay_3 : "Channel Ditetapkan ke {0}\n\n**ID Channel**: {1}"
 cplay_4 : "Gagal mendapatkan Channel.\n\nPastikan Anda telah menambahkan Bot di Channel Anda dan mempromosikannya sebagai Admin.\nEdit atau Ubah Channel melalui /channelplay"
