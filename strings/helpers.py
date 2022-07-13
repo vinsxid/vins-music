@@ -90,11 +90,11 @@ HELP_4 = """✅ **Perintah Ekstra:**
 
 2️⃣ Anda dapat mengatur **Kualitas Video** Anda ingin streaming di obrolan suara.
 
-3️⃣ **Pengguna Auth:** Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip, /stop dll)
+3️⃣ **Pengguna Auth:** Anda dapat mengubah mode perintah admin dari sini ke semua orang atau hanya admin. Jika semua orang, siapa pun yang ada di grup Anda dapat menggunakan perintah admin (seperti /skip /stop dll)
 
 4️⃣ **Mode Bersih:** Saat diaktifkan, hapus pesan bot setelah 5 menit dari grup Anda untuk memastikan obrolan Anda tetap bersih dan baik.
 
-5️⃣ **Perintah Bersih:** Saat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play, /pause, /shuffle, /stop, dll)
+5️⃣ **Perintah Bersih:** Saat diaktifkan, Bot akan menghapus perintah yang dieksekusi (/play /pause /shuffle /stop dll)
 
 6️⃣ **Pengaturan Putar:**
 
@@ -102,9 +102,9 @@ HELP_4 = """✅ **Perintah Ekstra:**
 
 Pilihan di Playmode:
 
-1️⃣ **Mode Pencarian** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play. 
+1️⃣ **Mode Pencarian** [Direct atau Inline] - Mengubah mode pencarian Anda saat Anda memberikan mode /play
 
-2️⃣ **Perintah Admin** [Semuanya atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin seperti (/skip, /stop, dll)
+2️⃣ **Perintah Admin** [Semuanya atau Admin] - Jika semua orang, siapa pun yang ada di grup Anda akan dapat menggunakan perintah admin seperti (/skip /stop dll)
 
 3️⃣ **Tipe Perintah** [Semuanya atau Admin] - Jika admin, hanya admin yang ada di grup yang dapat memutar musik di obrolan suara."""
 
