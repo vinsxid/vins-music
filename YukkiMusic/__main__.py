@@ -32,7 +32,7 @@ async def init():
         and not config.STRING4
         and not config.STRING5
     ):
-        LOGGER("NekoXid").error(
+        LOGGER("xid").error(
             "Tidak Ada Asisten Klien yang Ditentukan Vars!.. Keluar dari Process."
         )
         return
@@ -40,8 +40,8 @@ async def init():
         not config.SPOTIFY_CLIENT_ID
         and not config.SPOTIFY_CLIENT_SECRET
     ):
-        LOGGER("NekoXid").warning(
-            "Tidak ada Spotify Vars yang ditentukan. Bot Anda tidak akan dapat memainkan spotify."
+        LOGGER("xid").warning(
+            "Tidak ada Spotify Vars yang ditentukan."
         )
     try:
         users = await get_gbanned()
@@ -65,17 +65,17 @@ async def init():
             "http://docs.evostream.com/sample_content/assets/sintel1m720p.mp4"
         )
     except NoActiveGroupCall:
-        LOGGER("NekoXid").error(
-            "[ERROR] - \n\nSilakan aktifkan Panggilan Suara Grup Logger Anda. Pastikan Anda tidak pernah menutup/mengakhiri panggilan suara di grup log Anda"
+        LOGGER("xid").error(
+            "[ERROR] - \n\nSilakan aktifkan Panggilan Suara Grup Logger Anda. Pastikan Anda tidak pernah menutup/mengakhiri panggilan suara di grup log"
         )
         sys.exit()
     except:
         pass
     await Yukki.decorators()
-    LOGGER("NekoXid").info("🤖 Bot Alive")
+    LOGGER("xid").info("🤖 Bot Alive")
     await idle()
 
 
 if __name__ == "__main__":
     loop.run_until_complete(init())
-    LOGGER("NekoXid").info("Menghentikan NekoXid Music Bot! ")
+    LOGGER("xid").info("❌ Menghentikan xid Music Bot! ")
