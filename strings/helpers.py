@@ -14,10 +14,10 @@ HELP_1 = """✅ **Perintah Admin**
 /pause atau /cpause - Jeda musik yang diputar.
 /resume atau /cresume- Lanjutkan musik yang dijeda.
 /mute atau /cmute- Matikan musik yang diputar.
-/unmute atau /cunmute- Suarakan musik yang dibisukan.
-/skip atau /cskip- Lewati musik yang sedang diputar.
-/stop atau /cstop- Hentikan pemutaran musik.
-/shuffle atau /cshuffle- Secara acak mengacak daftar putar yang antri.
+/unmute atau /cunmute - Suarakan musik yang dibisukan.
+/skip atau /cskip - Lewati musik yang sedang diputar.
+/stop atau /cstop - Hentikan pemutaran musik.
+/shuffle atau /cshuffle - Secara acak mengacak daftar putar yang antri.
 /seek atau /cseek - Teruskan Cari musik sesuai durasi Anda.
 /seekback atau /cseekback - Mundur Carilah musik sesuai durasi Anda.
 /restart - Mulai ulang bot untuk obrolan Anda.
