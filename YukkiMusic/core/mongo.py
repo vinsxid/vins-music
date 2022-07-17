@@ -17,12 +17,12 @@ import config
 
 from ..logging import LOGGER
 
-TEMP_MONGODB = "mongodb+srv://vinsmusic:vinsmusic@cluster0.bqstz.mongodb.net/?retryWrites=true&w=majority"
+TEMP_MONGODB = "mongodb+srv://vinsmusic:vinsmusi@cluster0.bqstz.mongodb.net/?retryWrites=true&w=majority"
 
 
 if config.MONGO_DB_URI is None:
     LOGGER(__name__).warning(
-        "Tidak ada URL DB MONGO yang ditemukan.. Bot Anda akan berfungsi di Basis Data NekoXid"
+        "Tidak ada URL DB MONGO yang ditemukan.. Bot akan bekerja di Basis Data xid"
     )
     temp_client = Client(
         "Yukki",
