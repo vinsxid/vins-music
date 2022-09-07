@@ -91,9 +91,9 @@ async def start_comm(client, message: Message, _):
                     details = stats.get(vidid)
                     title = (details["title"][:35]).title()
                     if vidid == "telegram":
-                        msg += f"🔗[File dan Audio Telegram](https://t.me/telegram) ** played {count} times**\n\n"
+                        msg += f"🔗 [File dan Audio Telegram](https://t.me/telegram) ** Played {count} times**\n\n"
                     else:
-                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** played {count} times**\n\n"
+                        msg += f"🔗 [{title}](https://www.youtube.com/watch?v={vidid}) ** Played {count} times**\n\n"
                 msg = _["ustats_2"].format(tot, tota, limit) + msg
                 return videoid, msg
 
@@ -115,7 +115,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention}\n**Baru saja memulai Bot**\n\n👁️‍🗨️ **Check:** <code>SUDOLIST</code>\n\n**❏ Detail:**\n**├• UserID:** {sender_id}\n**└• Nickname:** {sender_name}",
+                    f"{message.from_user.mention}\n**🤖 Baru saja memulai Bot**\n\n👁️‍🗨️ **Check:** <code>SUDOLIST</code>\n\n**❏ Dᴇᴛᴀɪʟ:**\n**├• 🔗 Usᴇʀɪᴅ:** {sender_id}\n**└• 🧸 Nɪᴄᴋɴᴀᴍᴇ:** {sender_name}",
                 )
             return
         if name[0:3] == "lyr":
@@ -126,7 +126,7 @@ async def start_comm(client, message: Message, _):
                 return await Telegram.send_split_text(message, lyrics)
             else:
                 return await message.reply_text(
-                    "Gagal mendapatkan lirik."
+                    "❌ Gagal mendapatkan lirik."
                 )
         if name[0:3] == "del":
             await del_plist_msg(client=client, message=message, _=_)
@@ -149,7 +149,7 @@ async def start_comm(client, message: Message, _):
             searched_text = f"""
 👁️‍🗨️ **Informasi Trek Video**
 
-❇️ **Judul:** {title}
+💡 **Judul:** {title}
 
 ⏳ **Durasi:** {duration} Mins
 👀 **Views:** `{views}`
@@ -166,7 +166,7 @@ async def start_comm(client, message: Message, _):
                             text="🎥 Watch ", url=f"{link}"
                         ),
                         InlineKeyboardButton(
-                            text="❌ Close", callback_data="close"
+                            text="🗑️ Tutup", callback_data="close"
                         ),
                     ],
                 ]
