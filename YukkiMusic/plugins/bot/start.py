@@ -184,7 +184,7 @@ async def start_comm(client, message: Message, _):
                 sender_name = message.from_user.first_name
                 return await app.send_message(
                     config.LOG_GROUP_ID,
-                    f"{message.from_user.mention}\n**Baru saja memulai Bot**\n\n👁️‍🗨️ **Check:** <code>INFORMASI VIDEO</code>\n\n**❏ Detail:**\n**├• UserID:** {sender_id}\n**└• Nickname:** {sender_name}",
+                    f"{message.from_user.mention}\n**🤖 Baru saja memulai Bot**\n\n👁️‍🗨️ **Check:** <code>INFORMASI VIDEO</code>\n\n**❏ Dᴇᴛᴀɪʟ:**\n**├• 🔗 Usᴇʀɪᴅ:** {sender_id}\n**└• 🧸 Nɪᴄᴋɴᴀᴍᴇ:** {sender_name}",
                 )
     else:
         try:
@@ -247,7 +247,7 @@ async def welcome(client, message: Message):
     if config.PRIVATE_BOT_MODE == str(True):
         if not await is_served_private_chat(message.chat.id):
             await message.reply_text(
-                "**Bot Musik Pribadi**\n\nHanya untuk obrolan resmi yang telah diizinkan oleh pemilik saya. Minta pemilik saya untuk mengizinkan obrolan Anda terlebih dahulu."
+                "🔒 **Bot Musik Pribadi**\n\nHanya untuk grup yang telah diizinkan. Minta pemilik saya untuk mengizinkan grup Anda terlebih dahulu."
             )
             return await app.leave_chat(message.chat.id)
     else:
