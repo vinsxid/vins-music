@@ -217,7 +217,7 @@ async def start_comm(client, message: Message, _):
             sender_name = message.from_user.first_name
             return await app.send_message(
                 config.LOG_GROUP_ID,
-                f"{message.from_user.mention}\n**Baru saja memulai Bot**\n\n**❏ Detail:**\n**├• UserID:** {sender_id}\n**└• Nickname:** {sender_name}",
+                f"{message.from_user.mention}\n**🤖 Baru saja memulai Bot**\n\n**❏ Dᴇᴛᴀɪʟ:**\n**├• 🔗 Usᴇʀɪᴅ:** {sender_id}\n**└• 🧸 Usᴇʀɴᴀᴍᴇ:** {sender_name}",
             )
 
 
