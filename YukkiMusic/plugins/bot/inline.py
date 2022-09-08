@@ -54,7 +54,7 @@ async def inline_query_handler(client, query):
                 ]
             )
             searched_text = f"""
-❇️ **Judul:** [{title}]({link})
+💡 **Judul:** [{title}]({link})
 
 ⏳ **Durasi:** {duration} Mins
 👀 **Views:** `{views}`
